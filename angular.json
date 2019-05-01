@@ -55,6 +55,10 @@
           "configurations": {
             "production": {
               "browserTarget": "proj:build:production"
+            },
+            "hmr": {
+              "hmr": true,
+              "browserTarget": "<project-name>:build:hmr"
             }
           }
         },

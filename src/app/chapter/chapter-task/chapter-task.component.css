@@ -1,0 +1,87 @@
+.task-container{
+    background: #3c3c3c;;
+    width:60%;
+    height:100%;
+    margin: auto ;
+}
+/* Card */
+
+#ui-card {
+    border: none;
+    background: white;
+    padding: 18px 20px 20px 20px;
+    margin: 8% auto;
+    min-width: 270px;
+    max-width: 80%;
+}
+
+.ui-card-box--user_avatar {
+    background-color: rgba(209, 216, 224,1.0);
+    border-radius: 50%;
+    border: 1px solid #eee;
+    width: 3.5em;
+    height: 3.5em;
+    background: url("https://i.ibb.co/V32MwjH/images.png") no-repeat center;
+    background-size: cover;
+    position: relative ;
+    z-index: 9;
+}
+
+.ui-card-box--user_avatar:after {
+    /* offline */
+    content: "●";
+    color: #e17055;
+    position: relative;
+    top: 30px;
+    left: 22px;
+    font-family: Arial;
+    font-size: 1.3em;
+}
+
+.ui-card-box--cover {
+    min-height: 15em;
+    width: auto;
+    background-color: rgba(209, 216, 224,1.0);
+    margin-top: -76px;
+    position: relative;
+    z-index: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    background: url("https://i.ibb.co/n05HB0q/Be-happy-for-no-reason-like-a-child-If-you-are-happy-for-a-reason-You-re-in-trouble-because-that-reason-can-be-taken-from-you-Deepak-Chopra.jpg") no-repeat center ;
+    opacity: 0.7;
+    
+}
+
+.ui-card-box--title h1 {
+    text-align: left;
+    color: grey;
+    font-family: Arial;
+    font-size: 1.5em;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+
+.ui-card-box--text {
+    text-align: left;
+    color: grey;
+    font-family: Arial;
+    font-size: 0.9em;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+.ui-card-box--hash {
+    text-align: left;
+}
+
+.ui-card-box--hash span {
+    padding: 0.3em;
+    background-color: rgba(209, 216, 224,1.0);
+    color: white;
+    border-radius: 2px;
+    font-size: 0.8em;
+    margin-right: 0.1em;
+    
+}

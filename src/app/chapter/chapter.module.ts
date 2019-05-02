@@ -1,9 +1,9 @@
 import { NgModule } from "@angular/core";
-import { NgbTabsetModule} from '@ng-bootstrap/ng-bootstrap';
 import { ChapterRouteModule } from './chapter-routing.module';
 import { ChapterComponent } from './chapter.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
-    imports:[NgbTabsetModule,ChapterRouteModule],
+    imports:[NgbModule,ChapterRouteModule],
     declarations:[ChapterComponent],
     exports:[]
 })

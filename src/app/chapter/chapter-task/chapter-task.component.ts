@@ -8,8 +8,7 @@ import {NgbAccordionConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class ChapterTaskComponent {
 constructor(config: NgbAccordionConfig){
-        config.closeOthers = true;
-    config.type = 'infoss';
+        //config.closeOthers = true;
     
     }
   public tasks: any[] = [{

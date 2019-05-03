@@ -10,7 +10,7 @@ import { ChapterTaskComponent } from './chapter-task/chapter-task.component';
 import { ChapterResolver } from './chapter-resolver';
 import { HttpClientModule } from '@angular/common/http';
 @NgModule({
-    imports: [NgbModule, ChapterRouteModule, CommonModule, MarkdownModule.forChild()
+    imports: [HttpClientModule,NgbModule, ChapterRouteModule, CommonModule, MarkdownModule.forChild()
     ],
     declarations: [ChapterComponent, ChapterTheoryComponent, ChapterTaskComponent],
     exports: [],

@@ -27,9 +27,9 @@
                <ng-template ngbPanelHeader >
                   <div  (click)="acc.toggle(task.id)" class="d-flex align-items-center justify-content-between ">
                      <h5 class="m-0">{{task.question}}</h5>
-                       <span  class="p-0">{{task.status}}</span>
+                       <span  class="p-0" [ngClass]="task.status === 'Completed' ? 'status completed ' : 'status inprogress'">{{task.status}}</span>
                   </div>
-                  <span class="marks" style="position: relative; top: 5px; background: #ccc; padding: 4px; border-radius: 5px; font-size: 13px;">Marks : 95</span>
+                  <span class="marks" style="position: relative; top: 5px; background: #ccc; padding: 4px; border-radius: 5px; font-size: 13px;">Marks : {{task.marks}}</span>
                 </ng-template>
                 <ng-template ngbPanelContent>
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia

@@ -17,7 +17,7 @@ constructor(config: NgbAccordionConfig){
     'question': 'Create a form action',
     'description': 'Add a form action name Test',
     'status': 'Completed',
-
+    'marks': 10,
   },
     {
       'id': 2 ,
@@ -25,15 +25,15 @@ constructor(config: NgbAccordionConfig){
       'question': 'Disable a newly created form action',
       'description': 'Add a form action name Test',
       'status': 'InProgress',
-
+      'marks': 20,
     },
     {
       'id': 3 ,
       'chapter_id': 101,
-      'question': 'Make your form action global',
+      'question': 'Create a global form action',
       'description': 'Apply a newly created form action on all forms.',
       'status': 'InProgress',
-
+      'marks': 25,
     },
     {
       'id': 4 ,
@@ -41,7 +41,7 @@ constructor(config: NgbAccordionConfig){
       'question': 'Enable a newly created form action',
       'description': 'Add a form action name Test',
       'status': 'InProgress',
-
+      'marks': 25,
     }
   ];
 }

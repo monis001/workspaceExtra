@@ -111,3 +111,19 @@
     font-size: 13px;
 
 }
+
+.status {
+    position: relative;
+    top: 5px;
+    padding: 5px !important;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.completed {
+    background: #1ab394;
+}
+
+.inprogress {
+    background: #f8ac59;
+}

@@ -1,14 +1,14 @@
 .task-container{
-    background: #3c3c3c;;
+    
     width:60%;
     height:100%;
     margin: auto ;
 }
 /* Card */
 
-#ui-card {
+.ui-card {
     border: none;
-    background: white;
+    background: #eaeaea;
     padding: 18px 20px 20px 20px;
     margin: 8% auto;
     min-width: 270px;
@@ -84,4 +84,30 @@
     font-size: 0.8em;
     margin-right: 0.1em;
     
+}
+
+::ng-deep .Tempp > div.card{
+    margin: 50px 0 !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 0;
+    -webkit-box-shadow: 0 5px 5px -6px black;
+	-moz-box-shadow: 0 5px 5px -6px black;
+    box-shadow: 0 5px 5px -6px black;
+    cursor: pointer;
+
+}
+
+::ng-deep .Tempp > div.card > .card-header{
+    background:white !important;
+    padding: 20px;
+}
+
+::ng--deep .Tempp > div.card > div.card-header > span.marks{
+    position: relative;
+    top: 5px;
+    background: #ccc;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+
 }

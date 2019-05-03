@@ -6,9 +6,9 @@
 }
 /* Card */
 
-#ui-card {
+.ui-card {
     border: none;
-    background: white;
+    background: #eaeaea;
     padding: 18px 20px 20px 20px;
     margin: 8% auto;
     min-width: 270px;

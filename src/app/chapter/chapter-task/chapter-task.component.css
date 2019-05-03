@@ -1,5 +1,5 @@
 .task-container{
-    background: #3c3c3c;;
+    
     width:60%;
     height:100%;
     margin: auto ;
@@ -84,4 +84,18 @@
     font-size: 0.8em;
     margin-right: 0.1em;
     
+}
+
+::ng-deep .Tempp > div.card{
+    margin: 50px 0 !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 0;
+    -webkit-box-shadow: 0 5px 5px -6px black;
+	   -moz-box-shadow: 0 5px 5px -6px black;
+	        box-shadow: 0 5px 5px -6px black;
+
+}
+
+::ng-deep .Tempp > div.card > .card-header{
+    background:white !important;
 }
